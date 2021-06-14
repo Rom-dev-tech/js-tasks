@@ -43,6 +43,7 @@ const rederer = list => {
     }),
   );
 
+  // Для удаления задачи по кнопке через ID
   for (const item of list) {
     const button = document.querySelector(`#btn-${item.id}`);
     button.addEventListener('click', () => {
