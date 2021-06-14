@@ -3,6 +3,7 @@
  * 1. Saving data in local storage
  * 2. Removing btn
  */
+//! Допилить
 
 //* Импорты
 import '../sass/common.scss';
