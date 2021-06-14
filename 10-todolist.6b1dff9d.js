@@ -11,4 +11,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{}],"Yw8h":[function(require,module,exports) {
 "use strict";require("../sass/common.scss");var e=o(require("../templates/todos.hbs")),t=o(require("./storage-todolist"));function o(e){return e&&e.__esModule?e:{default:e}}const s={form:document.querySelector(".form"),todoList:document.querySelector(".todo-list")},d=t.default.load()||[],r=e=>{e.preventDefault(),d.push({id:Date.now(),value:e.target.elements.text.value}),e.target.elements.text.value="",t.default.save(d),n(d)},n=o=>{s.todoList.innerHTML="",s.todoList.insertAdjacentHTML("beforeend",(0,e.default)({todos:o}));for(const e of o){document.querySelector(`#btn-${e.id}`).addEventListener("click",()=>{const o=d.findIndex(t=>t.id===e.id);o>-1&&(d.splice(o,1),t.default.save(d),n(d))})}};n(d),s.form.addEventListener("submit",r);
 },{"../sass/common.scss":"C0of","../templates/todos.hbs":"rPrX","./storage-todolist":"ZBWu"}]},{},["Yw8h"], null)
-//# sourceMappingURL=/js-tasks/10-todolist.0a19bd51.js.map
+//# sourceMappingURL=/js-tasks/10-todolist.6b1dff9d.js.map
