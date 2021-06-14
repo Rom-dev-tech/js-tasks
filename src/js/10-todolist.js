@@ -16,7 +16,7 @@ const refs = {
   todoList: document.querySelector('.todo-list'),
 };
 
-//* Переменная TODO List
+//* Подгружаем список из памяти localStorage TODO List
 const todoList = Storage.load() || [];
 
 //* CallBack для слушателя
