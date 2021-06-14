@@ -1,5 +1,4 @@
 /** Create timer with template */
-'use strict';
 import '../sass/timer.scss';
 
 const template = value => `

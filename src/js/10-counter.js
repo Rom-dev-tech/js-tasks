@@ -1,7 +1,6 @@
 /**
  * Create counter with template
  */
-'use strict';
 
 import '../sass/counter.scss'
 const template = value => `
