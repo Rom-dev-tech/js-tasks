@@ -3,14 +3,16 @@ import '../sass/common.scss';
 import '../sass/feedback-form.scss';
 
 const STORAGE_KEY = 'feedback-msg';
+const formData = {};
 
 const refs = {
   form: document.querySelector('.js-feedback-form'),
   textarea: document.querySelector('.js-feedback-form  textarea'),
+  input: document.querySelector('.js-feedback-form  input'),
 };
 
 refs.form.addEventListener('submit', onFormSubmit);
-refs.textarea.addEventListener('input', throttle(onTextareaInput, 500));
+refs.form.addEventListener('input', throttle(onTextareaInput, 200));
 
 populateTextarea();
 
@@ -33,9 +35,9 @@ function onFormSubmit(evt) {
  * - Можно добавить throttle
  */
 function onTextareaInput(evt) {
-  const message = evt.target.value;
+  formData[evt.target.name] = evt.target.value;
 
-  localStorage.setItem(STORAGE_KEY, message);
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
 }
 
 /*
@@ -44,8 +46,10 @@ function onTextareaInput(evt) {
  */
 function populateTextarea() {
   const savedMessage = localStorage.getItem(STORAGE_KEY);
+  const parsedMessage = JSON.parse(savedMessage)
 
   if (savedMessage) {
-    refs.textarea.value = savedMessage;
+    refs.textarea.value = parsedMessage.message;
+    refs.input.value = parsedMessage.name;
   }
 }
