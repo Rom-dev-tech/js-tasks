@@ -19,7 +19,7 @@ function showTime() {
   const amPm = hour >= 12 ? 'PM' : 'AM';
 
   // 12hr Format
-  hour = hour % 12 || 12;
+  hour = hour % 24 || 24;
 
   // Output Time
   time.innerHTML = `${hour}<span>:</span>${addZero(min)}<span>:</span>${addZero(
