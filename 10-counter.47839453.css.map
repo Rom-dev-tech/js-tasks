@@ -1,0 +1,1 @@
+{"version":3,"sources":["sass/counter.scss"],"names":[],"mappings":"AAAA,SACE,YAAA,CACA,aAGF,iBACE,WAGF,gBACE","file":"10-counter.47839453.css","sourceRoot":"../src","sourcesContent":[".counter {\n  display: flex;\n  padding: 10px;\n}\n\n.counter .button {\n  width: 50px;\n}\n\n.counter .value {\n  padding: 10px;\n}\n"]}
