@@ -22,7 +22,7 @@ function showTime() {
   hour = hour % 24 || 24;
 
   // Output Time
-  time.innerHTML = `${hour}<span>:</span>${addZero(min)}<span>:</span>${addZero(
+  time.innerHTML = `${addZero(hour)}<span>:</span>${addZero(min)}<span>:</span>${addZero(
     sec
   )} ${showAmPm ? amPm : ''}`;
 
