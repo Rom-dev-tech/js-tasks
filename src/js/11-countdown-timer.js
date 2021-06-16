@@ -6,6 +6,10 @@
  * 3. Mins
  * 4. Seconds
  */
+
+//* backgroundImage
+document.body.style.backgroundImage = "url('https://i.ibb.co/3mThcXc/afternoon.jpg')";
+
 // * Рефы
 const Refs = {
   startBtn: document.getElementById('start'),
@@ -24,7 +28,7 @@ const template = (value, event) => `
 `;
 
 // * Событие которое настанет
-const EVENT_DISC = 'New Year';
+const EVENT_DISC = 'New Year 2022';
 
 // * Дата до которого времени считает таймер
 const newYearDate = new Date('01/01/2022').getTime();
@@ -57,13 +61,21 @@ function Timer({selector}) {
             const mins = getMins(diff);
             const seconds = getSeconds(diff);
             updateValue(`${addZero(days)} days ${addZero(hours)} hours ${addZero(mins)} mins ${addZero(seconds)} seconds`);
+          
+          // * Если событее прошло
+          if (diff < 0) {
+            clearInterval(id);
+            Refs.startBtn.remove();
+            Refs.stopBtn.remove();
+                  document.querySelector(selector).innerHTML =`<p class="end">EXPIRED</p>`;
+  }
         }, 100);
     };
 
     this.stop = () => {
-        clearTimeout(id);
+        clearInterval(id);
         id = 0;
-    }
+  }
 }
 
 // * Создаём Экземпляр ==================
