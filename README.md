@@ -6,4 +6,5 @@
 
 <!-- ! Modul 11  Таймеры. Promise API-->
 <!-- ? Модуль 11. Занятие 21. Асинхронность: таймеры https://www.youtube.com/watch?v=jMNproAL94I-->
+<!-- ? Занятие 22. Промисы https://www.youtube.com/watch?v=_meqUlyIEHc-->
 <!-- * Модуль 11. Занятие 21. Асинхронность: таймеры https://www.youtube.com/watch?v=O2SjInJZHsM-->
