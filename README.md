@@ -9,3 +9,6 @@
 <!-- ? Занятие 22. Промисы https://www.youtube.com/watch?v=_meqUlyIEHc-->
 <!-- * Модуль 11. Занятие 21. Асинхронность: таймеры https://www.youtube.com/watch?v=O2SjInJZHsM-->
 <!-- * Модуль 11. Занятие 22. Асинхронность: таймеры. Промисы https://www.youtube.com/watch?v=n-9_kvz8MTo-->
+
+<!-- ! Modul 12  AJAX. Fetch API. CRUD-->
+<!-- ? Модуль 12. Занятие 21. HTTP-запросы (AJAX) https://www.youtube.com/watch?v=qjiUZOLJ1lA-->
