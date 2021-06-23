@@ -18,6 +18,7 @@ import pokemonCardTpl from '../templates/12-pokemon-card.hbs';
 import API from './12-api-service';
 import getRefs from './12-get-refs';
 
+// run fuction
 const refs = getRefs();
 
 refs.searchForm.addEventListener('submit', onSearch);
