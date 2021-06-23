@@ -28,10 +28,10 @@ const template = (value, event) => `
 `;
 
 // * Событие которое настанет
-const EVENT_DISC = 'New Year 2022';
+const EVENT_DISC = 'Happy Birthday 30';
 
 // * Дата до которого времени считает таймер
-const newYearDate = new Date('01/01/2022').getTime();
+const newYearDate = new Date('11/21/2021').getTime();
 
 //* Add Zeros
 function addZero(n) {
