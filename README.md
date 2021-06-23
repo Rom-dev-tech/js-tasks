@@ -11,5 +11,6 @@
 <!-- * Модуль 11. Занятие 22. Асинхронность: таймеры. Промисы https://www.youtube.com/watch?v=n-9_kvz8MTo-->
 
 <!-- ! Modul 12  AJAX. Fetch API. CRUD-->
-<!-- ? Модуль 12. Занятие 21. HTTP-запросы (AJAX) https://www.youtube.com/watch?v=qjiUZOLJ1lA-->
-<!-- ? Модуль 12. REST-пагинация https://www.youtube.com/watch?v=poxVZxvONF8--> Ифинити скрол плагин (https://infinite-scroll.com/)
+<!-- ? Модуль 12. Занятие 23. HTTP-запросы (AJAX) https://www.youtube.com/watch?v=qjiUZOLJ1lA-->
+<!-- ? Модуль 12. Занятие 24 REST-пагинация https://www.youtube.com/watch?v=poxVZxvONF8--> Ифинити скрол плагин (https://infinite-scroll.com/)
+<!-- * Модуль 12. Занятие 23 HTTP-запросы (AJAX) https://www.youtube.com/watch?v=FJt2gGgY1VA-->
