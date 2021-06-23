@@ -22,6 +22,7 @@ const refs = getRefs();
 
 refs.searchForm.addEventListener('submit', onSearch);
 
+// submit
 function onSearch(e) {
   e.preventDefault();
 
@@ -34,11 +35,13 @@ function onSearch(e) {
     .finally(() => form.reset());
 }
 
+// render markup
 function renderPokemonCard(pokemon) {
   const markup = pokemonCardTpl(pokemon);
   refs.cardContainer.innerHTML = markup;
 }
 
+// error
 function onFetchError(error) {
   alert('Упс, что-то пошло не так и мы не нашли вашего покемона!');
 }
