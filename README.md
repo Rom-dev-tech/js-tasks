@@ -12,3 +12,4 @@
 
 <!-- ! Modul 12  AJAX. Fetch API. CRUD-->
 <!-- ? Модуль 12. Занятие 21. HTTP-запросы (AJAX) https://www.youtube.com/watch?v=qjiUZOLJ1lA-->
+<!-- ? Модуль 12. REST-пагинация https://www.youtube.com/watch?v=poxVZxvONF8--> Ифинити скрол плагин (https://infinite-scroll.com/)

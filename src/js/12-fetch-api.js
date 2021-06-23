@@ -47,18 +47,7 @@ function onFetchError(error) {
   alert('Упс, что-то пошло не так и мы не нашли вашего покемона!');
 }
 
-//* =============== Бекенд newsapi.org ======= доп мат ===================
-
-// const url = 'https://newsapi.org/v2/everything?q=cars';
-// const options = {
-//   headers: {
-//     Authorization: '4330ebfabc654a6992c2aa792f3173a3',
-//   },
-// };
-
-// fetch(url, options)
-//   .then(rerpons => rerpons.json())
-//   .then(console.log);
+//* =============== CORS ===================
 
 /*
  * - Cross-Origin Resource Sharing (CORS)
