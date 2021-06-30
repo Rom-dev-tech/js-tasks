@@ -14,3 +14,9 @@
 <!-- ? Модуль 12. Занятие 23. HTTP-запросы (AJAX) https://www.youtube.com/watch?v=qjiUZOLJ1lA-->
 <!-- ? Модуль 12. Занятие 24 REST-пагинация https://www.youtube.com/watch?v=poxVZxvONF8--> Ифинити скрол плагин (https://infinite-scroll.com/)
 <!-- * Модуль 12. Занятие 23 HTTP-запросы (AJAX) https://www.youtube.com/watch?v=FJt2gGgY1VA-->
+<!-- * Модуль 12. Занятие 24 HTTP-запросы (AJAX) REST-пагинация и бесконечный скрол https://www.youtube.com/watch?v=MfUAr0KTXyU-->
+
+<!-- ! Modul 13  CRUD и async/awai-->
+<!-- ? Модуль 13. Занятие 25.  CRUD https://www.youtube.com/watch?v=WMmFT8i2BS8-->
+<!-- ? Модуль 13. Занятие 26.  Асинхронные функции (async/await) https://www.youtube.com/watch?v=2lvJn5yrv5c-->
+<!-- * Модуль 13. Занятие 25 Асинхронные функции (async/await) https://www.youtube.com/watch?v=ZuoUjOMzoLI-->
