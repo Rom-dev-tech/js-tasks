@@ -15,7 +15,8 @@ export default class NewsApiService {
   fetchArticles() {
     const searchParams = new URLSearchParams({
       q: this.searchQuery,
-      language: 'en',
+      // language: 'en',
+      language: 'ru',
       pageSize: 10,
       page: this.page,
     });
